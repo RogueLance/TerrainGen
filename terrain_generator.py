@@ -110,6 +110,10 @@ class TerrainGenerator:
             
         Returns:
             numpy array of height values normalized to [0, 1]
+        
+        Note:
+            For large terrain sizes, this may be slow. Consider using smaller
+            sizes or optimizing with vectorized operations for production use.
         """
         terrain = np.zeros((self.size, self.size))
         
@@ -141,6 +145,10 @@ class TerrainGenerator:
             
         Returns:
             numpy array of height values normalized to [0, 1]
+        
+        Note:
+            For large terrain sizes, this may be slow. Consider using smaller
+            sizes or optimizing with vectorized operations for production use.
         """
         terrain = np.zeros((self.size, self.size))
         

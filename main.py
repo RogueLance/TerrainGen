@@ -8,7 +8,7 @@ from PyQt5.QtWidgets import (
     QLabel, QComboBox, QPushButton, QSlider, QSpinBox, QGroupBox,
     QRadioButton, QButtonGroup, QFileDialog, QMessageBox, QScrollArea
 )
-from PyQt5.QtCore import Qt, QPoint, QTimer
+from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtGui import QImage, QPixmap, QPainter, QPen, QColor
 from PIL import Image
 

@@ -38,12 +38,7 @@ class ErosionSimulator:
         water = np.zeros_like(terrain)
         sediment = np.zeros_like(terrain)
         
-        # Kernel for calculating flow direction
-        kernel = np.array([
-            [0.707, 1, 0.707],
-            [1, 0, 1],
-            [0.707, 1, 0.707]
-        ])
+
         
         for iteration in range(iterations):
             # Add rain

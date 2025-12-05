@@ -136,3 +136,8 @@ Thumbs.db
 # Temporary files
 /tmp/
 *.tmp
+
+# Screenshots
+screenshot*.png
+capture_screenshot.py
+capture_more_screenshots.py
